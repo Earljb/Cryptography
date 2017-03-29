@@ -15,9 +15,12 @@ en=input("Enter e to encrypt, d to decrypt, or q to quit: ")
 message=input("Message: ")
 key=input("Key: ")
 
-associations[index]
 
-if "e":
-    print(" ")
-elif "q":
+if en is "e":
+    print("e")
+elif en is "d":
+    print("d")
+elif not ["e","d","q"]:
+    print("Did not understand command, try again.")
+elif en is "q":
     print("Goodbye!")
