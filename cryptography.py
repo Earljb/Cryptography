@@ -51,7 +51,7 @@ while it:
     elif en == 'd':
         m=input("Message: ")
         k=input("Key: ")
-        list=[]
+        mlist=[]
         klist=[]
         dlist=[]
         d=[]
